@@ -1,0 +1,61 @@
+html,body{
+			margin: 0px;
+			padding: 0px;
+		}
+		h1{
+			text-align: center;
+			color: #fff;
+			margin: 0px;
+			padding: 0px;
+		}
+		.header{
+			padding: 0px;
+			margin: 0px;
+			height: 100px;
+			width: 100%;
+			background-color: #00CED1;
+			display: -webkit-flex; /* Safari */
+  			display: flex;
+			align-items:center;
+			justify-content:center;
+		}
+		.container{
+			margin-top: 100px;
+			width: 100%;
+			padding: 20px;
+			display: flex;
+			justify-content:center;
+		}
+		form{
+			border: 1px solid #00CED1;
+			padding: 50px;
+			margin: auto;
+			display: -webkit-flex; /* Safari */
+  			display: flex;
+  			flex-direction: column;
+  			justify-content:space-around;
+			width: 300px;
+			height: 200px;
+		}
+		form div{
+			display: flex;
+			justify-content:space-between;
+			align-items:center;
+		}
+		input{
+			width: 150px;
+			margin: 20px;
+		}
+		.submit{
+			display: flex;
+			justify-content:center;
+		}
+		input[type='submit']{
+			background-color: #00CED1;
+			border: none;
+			padding: 10px;
+			color: #fff;
+		}
+		input[type='submit']:hover{
+			background-color: #00dEe1
+		}
