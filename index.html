@@ -2,18 +2,26 @@
 <html>
 <head>
 	<title>index</title>
-	<link rel="stylesheet" type="text/css" href="/style.css">	
+	<link rel="stylesheet" type="text/css" href="/css/style.css">	
+	<script type="text/javascript" src="/js/vue.js"></script>
 </head>
 <body>
 <div class="header">
 	<h1>Express</h1>
 </div>
 <div class="container">
-	<form method="post" action="/login" >
+	<!-- <form method="post" action="/login" >
 		<div><label>用户名：</label><input type="text" name="username"></div>
 		<div><label>密码：</label><input type="text" name="password"></div>
 		<div class="submit"><input type="submit" value="登陆"></div>
-	</form>
+	</form> -->
+	<div id='app'>
+		<p>{{username}}</p>
+		<p>{{password}}</p>
+	</div>
+
+	<script type="text/javascript" src="/js/app.js"></script>
+	<script type="text/javascript">app.$mount("#app")</script>
 </div>
 </body>
 </html>
