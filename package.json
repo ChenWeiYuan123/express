@@ -13,10 +13,14 @@
     "vue": "^2.1.8",
     "vue-server-renderer": "^2.1.8"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "vue-loader": "^10.0.2",
+    "webpack": "^1.14.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "node server.js"
+    "server": "node server.js",
+    "pack":"webpack --config ./config/webpack.conf.js"
   },
   "repository": {
     "type": "git",

@@ -20,7 +20,7 @@ exApp.get('/',function(req,res){
 			console.log(err)
 			return res.send('err')
 		}
-		console.log(html)
+		// console.log(html)
 		res.send(html)
 	})
 })
